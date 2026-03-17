@@ -1,4 +1,3 @@
-
 [app]
 
 title = Tic Tac Toe
@@ -21,22 +20,13 @@ android.permissions = INTERNET
 # Target Android API
 android.api = 31
 
-# Minimum API your APK supports
+# Minimum Android API
 android.minapi = 21
 
-# Android SDK version
-android.sdk = 20
-
-# Android NDK version
-android.ndk = 23b
-
-# Android build tools version
-android.build_tools = 30.0.3
-
-# Use AndroidX
+# Enable AndroidX
 android.enable_androidx = True
 
-# Application entry point
+# Entry point
 entrypoint = main.py
 
 # Splash screen color
