@@ -17,11 +17,12 @@ fullscreen = 0
 # Permissions
 android.permissions = INTERNET
 
-# Target Android API
-android.api = 31
-
-# Minimum Android API
+# Android API settings
+android.api = 33
 android.minapi = 21
+android.sdk = 33
+android.ndk = 25b
+android.build_tools = 33.0.2
 
 # Enable AndroidX
 android.enable_androidx = True
@@ -29,5 +30,5 @@ android.enable_androidx = True
 # Entry point
 entrypoint = main.py
 
-# Splash screen color
+# Splash color
 presplash.color = #FFFFFF
