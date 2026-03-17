@@ -1,3 +1,4 @@
+
 [app]
 
 title = Tic Tac Toe
@@ -12,39 +13,31 @@ version = 1.0
 requirements = python3,kivy
 
 orientation = portrait
-
 fullscreen = 0
 
-
-# (list) Permissions
+# Permissions
 android.permissions = INTERNET
 
-# (int) Target Android API
+# Target Android API
 android.api = 31
 
-# (int) Minimum API your APK supports
+# Minimum API your APK supports
 android.minapi = 21
 
-# (str) Android SDK version to use
+# Android SDK version
 android.sdk = 20
 
-# (str) Android NDK version
+# Android NDK version
 android.ndk = 23b
 
-# (str) Android build tools version
+# Android build tools version
 android.build_tools = 30.0.3
 
-# (bool) Use AndroidX
+# Use AndroidX
 android.enable_androidx = True
 
-# (str) Application entry point
+# Application entry point
 entrypoint = main.py
 
-# (str) Supported orientation
-orientation = portrait
-
-# (bool) Show splash screen
+# Splash screen color
 presplash.color = #FFFFFF
-
-# (bool) Use fullscreen
-fullscreen = 0
